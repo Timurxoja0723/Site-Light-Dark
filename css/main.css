@@ -1,0 +1,87 @@
+/* General Css */
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-size: 16px;
+  user-select: none;
+}
+
+img{
+  display: inline-block;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1280px;
+}
+
+/* Header Styles Started */
+
+.header__container{
+  padding: 50px 0px 0px 0px;
+}
+
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo-img{
+  font-family: 'Orbitron';
+  font-size: 50px;
+  font-weight: 900;
+  font-style: normal;
+  color: #000;
+}
+
+.header__menu{
+  padding-top: 20px;
+  display: flex;
+}
+
+.header__menu-item{
+  padding-right: 40px;
+}
+
+.header__item-link{
+  font-family: 'Orbitron';
+  font-size: 20px;
+  font-weight: 900;
+  font-style: normal;
+  color: #000;
+}
+
+.header__item-link:hover{
+  color: #555;
+  border-bottom: 2px dashed #555;
+}
+
+.header__btn{
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+  background: none;
+  cursor: pointer;
+  border: 1px hidden #000;
+}
+
+.header__btn:hover{
+  color: #555;
+}
+
+/* Header Styles End */
+/* Hero Section Styles Started */
+/* Hero Section Styles End */
